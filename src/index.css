@@ -1,0 +1,27 @@
+.loginDiv{
+  height: 500px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 10px;
+}
+.input{
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  border: cornsilk;
+}
+.error-message {
+  border-radius: 10px;
+  font-size: 30px;
+  position: fixed; /* Posición fija en la ventana del navegador */
+  top: 90px; /* Colocar en la parte superior */
+  left: 50; /* Colocar en la esquina superior izquierda */
+  width: 600px; /* Ocupar todo el ancho */
+  padding: 10px; /* Añadir espacio de relleno */
+  color: white; /* Color del texto */
+  background-color: rgb(26, 16, 16); /* Color de fondo rojo */
+  z-index: 9999; /* Colocar por encima de otros elementos */
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
